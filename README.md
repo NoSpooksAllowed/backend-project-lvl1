@@ -6,3 +6,6 @@
 
 Brain even example:
 [![brain-even](https://asciinema.org/a/j49jcvvrObp12wnEKNRjBXHQm.svg)](https://asciinema.org/a/j49jcvvrObp12wnEKNRjBXHQm)
+
+Brain calc example:
+[![calc-even](https://asciinema.org/a/Kqhw6vQyJJHuBvzkok7pkqdIt.svg)](https://asciinema.org/a/Kqhw6vQyJJHuBvzkok7pkqdIt)
