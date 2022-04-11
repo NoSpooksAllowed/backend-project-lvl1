@@ -14,10 +14,12 @@ function runGame(gameDescription, gameMechanics) {
   let i = null;
 
   for (i = 0; i < numberOfTry; i += 1) {
-    const res = gameMechanics();
+    const [answer, yourAnswer, res] = gameMechanics();
 
     if (!res) {
-      console.log("'yes' is wrong answer ;(. Correct answer was 'no'.");
+      console.log(
+        `'${yourAnswer}' is wrong answer ;(. Correct answer was '${answer}'`,
+      );
       console.log(`Let's try again, ${name}!`);
       break;
     }

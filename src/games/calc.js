@@ -24,7 +24,7 @@ function evalExpression(num1, num2, op) {
 }
 
 /**
- * @return {bool}
+ * @return {Array}
  */
 function isEqualCalc() {
   const num1 = getRandomNumber(1, 100);
@@ -34,7 +34,7 @@ function isEqualCalc() {
 
   const answer = evalExpression(num1, num2, op);
   const yourAnswer = Number(readlineSync.question('Your answer: '));
-  return answer === yourAnswer;
+  return [answer, yourAnswer, answer === yourAnswer];
 }
 
 const gameDescription = 'What is the result of the expression?';

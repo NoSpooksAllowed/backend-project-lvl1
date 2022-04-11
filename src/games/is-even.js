@@ -3,7 +3,7 @@ import runGame from '../index.js';
 import getRandomNumber from '../random.js';
 
 /**
- * @return {bool}
+ * @return {Array}
  */
 function isEven() {
   const num = getRandomNumber(1, 100);
@@ -11,7 +11,7 @@ function isEven() {
   const answer = num % 2 === 0 ? 'yes' : 'no';
   const yourAnswer = readlineSync.question('Your answer: ');
 
-  return answer === yourAnswer;
+  return [answer, yourAnswer, answer === yourAnswer];
 }
 
 const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
