@@ -9,3 +9,6 @@ Brain even example:
 
 Brain calc example:
 [![calc-even](https://asciinema.org/a/Kqhw6vQyJJHuBvzkok7pkqdIt.svg)](https://asciinema.org/a/Kqhw6vQyJJHuBvzkok7pkqdIt)
+
+Brain gcd example:
+[![asciicast](https://asciinema.org/a/N77DQCTWfREYbnNrT2O2ffnls.svg)](https://asciinema.org/a/N77DQCTWfREYbnNrT2O2ffnls)
