@@ -1,4 +1,4 @@
-import greeting from "../src/cli.js";
+import greeting from './cli.js';
 
 /**
  * @param {string} gameDescription
@@ -6,8 +6,8 @@ import greeting from "../src/cli.js";
  * @return {void}
  */
 function runGame(gameDescription, gameMechanics) {
-  let numberOfTry = 3;
-  console.log("Welcome to the Brain Games!");
+  const numberOfTry = 3;
+  console.log('Welcome to the Brain Games!');
   const name = greeting();
   console.log(gameDescription);
 
@@ -22,7 +22,7 @@ function runGame(gameDescription, gameMechanics) {
       break;
     }
 
-    console.log("Correct!");
+    console.log('Correct!');
   }
 
   if (i === numberOfTry) {
