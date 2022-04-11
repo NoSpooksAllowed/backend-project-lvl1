@@ -20,7 +20,7 @@ const main = () => {
 
   let i = null;
 
-  for (i = 0; i < 3; i++) {
+  for (i = 0; i < 3; i += 1) {
     const res = isEven();
 
     if (!res) {
