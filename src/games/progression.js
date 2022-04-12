@@ -44,6 +44,7 @@ function printProgression(progression, hideNum) {
 function isRightNumInProgression() {
   const progression = generateProgression();
   const hideNum = getRandomNumber(0, progression.length - 1);
+  process.stdout.write('Question: ');
   printProgression(progression, hideNum);
 
   const answer = progression[hideNum];

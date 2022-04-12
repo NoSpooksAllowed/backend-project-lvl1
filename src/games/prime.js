@@ -25,7 +25,7 @@ function findPrimeAnswer(num) {
  */
 function isPrime() {
   const num = getRandomNumber(1, 100);
-  console.log(num);
+  console.log(`Question: ${num}`);
 
   const answer = findPrimeAnswer(num);
 

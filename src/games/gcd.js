@@ -21,7 +21,7 @@ function findGcd(a, b) {
 function isGcd() {
   const num1 = getRandomNumber(1, 100);
   const num2 = getRandomNumber(1, 100);
-  console.log(`${num1} ${num2}`);
+  console.log(`Question: ${num1} ${num2}`);
 
   const answer = findGcd(num1, num2);
 
