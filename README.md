@@ -12,3 +12,6 @@ Brain calc example:
 
 Brain gcd example:
 [![asciicast](https://asciinema.org/a/N77DQCTWfREYbnNrT2O2ffnls.svg)](https://asciinema.org/a/N77DQCTWfREYbnNrT2O2ffnls)
+
+Brain progression example:
+[![asciicast](https://asciinema.org/a/OnCQn5Rs2RSRbCYIt6aFDe46Q.svg)](https://asciinema.org/a/OnCQn5Rs2RSRbCYIt6aFDe46Q)
