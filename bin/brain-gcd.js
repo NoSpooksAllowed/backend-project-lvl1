@@ -1,4 +1,4 @@
-#!/home/spook/.nvm/versions/node/v17.4.0/bin/node
+#!/usr/bin/env node
 import brainGamesGcd from '../src/games/gcd.js';
 
 const main = () => {

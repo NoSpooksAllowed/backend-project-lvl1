@@ -1,4 +1,4 @@
-#!/home/spook/.nvm/versions/node/v17.4.0/bin/node
+#!/usr/bin/env node
 import brainGamesPrime from '../src/games/prime.js';
 
 const main = () => {
