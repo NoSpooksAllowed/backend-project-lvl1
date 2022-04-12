@@ -1,6 +1,6 @@
-import readlineSync from "readline-sync";
-import runGame from "../index.js";
-import getRandomNumber from "../random.js";
+import readlineSync from 'readline-sync';
+import runGame from '../index.js';
+import getRandomNumber from '../random.js';
 
 /**
  * @param {number} num
@@ -8,16 +8,16 @@ import getRandomNumber from "../random.js";
  */
 function findPrimeAnswer(num) {
   if (num <= 1) {
-    return "no";
+    return 'no';
   }
 
   for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {
-      return "no";
+      return 'no';
     }
   }
 
-  return "yes";
+  return 'yes';
 }
 
 /**
@@ -29,12 +29,11 @@ function isPrime() {
 
   const answer = findPrimeAnswer(num);
 
-  const yourAnswer = readlineSync.question("Your answer: ");
+  const yourAnswer = readlineSync.question('Your answer: ');
   return [answer, yourAnswer, answer === yourAnswer];
 }
 
-const gameDescription =
-  'Answer "yes" if given number is prime. Otherwise answer "no".';
+const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const brainGamesPrime = () => runGame(gameDescription, isPrime);
 
